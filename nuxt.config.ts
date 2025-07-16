@@ -22,6 +22,7 @@ export default defineNuxtConfig({
 
   // https://hub.nuxt.com/docs/getting-started/installation#options
   hub: {
+    blob: true,
     kv: true,
     database: true,
     cache: true,
