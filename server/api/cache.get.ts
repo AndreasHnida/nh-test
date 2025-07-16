@@ -7,4 +7,4 @@ export default defineCachedEventHandler(async (event) => {
     maxAge : 10, //seconds
     getKey: event => event.path,
   }
-}
+)  
